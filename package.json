@@ -1,6 +1,6 @@
 {
   "name": "bv2mp3",
-  "version": "2.2.1",
+  "version": "3.0.1",
   "description": "A tool to download all videos and convert to mp3 inside a video set of bilibili (also works for single video, of course).",
   "bin": "index.js",
   "type": "module",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@ffmpeg/core": "0.11.0",
     "@ffmpeg/ffmpeg": "0.11.6",
-    "axios": "1.6.2",
+    "axios": "1.6.8",
     "commander": "11.1.0",
     "lodash-es": "4.17.21",
     "minimist": "1.2.8",
@@ -33,10 +33,10 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "4.1.0",
-    "eslint": "8.54.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-prettier": "5.0.1",
-    "prettier": "3.1.0"
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "prettier": "3.2.5"
   },
   "eslintConfig": {
     "env": {
